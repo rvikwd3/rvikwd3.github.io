@@ -15,37 +15,16 @@
 
         <!-- using components -->
         <h3>First Comment</h3>
-        <div id="like_button">
-            {{ message }}
-        </div>
-
-        <div id="hover">
-            <span v-bind:title="message">
-                Hover your mouse over me for a few seconds!
-            </span>
-        </div>
-
-        <div id="disappear">
-            <span v-if="seen">Now you see me</span>
-        </div>
-
-        <div id="list">
+        <div id="app-7">
             <ol>
-                <li v-for="todo in todos">
-                    {{todo.text}}
-                </li>
+                <todo-item
+                    v-for="item in groceryList"
+                    v-bind:todo="item"
+                    v-bind:key="item.id"
+                ></todo-item>
             </ol>
         </div>
 
-        <div id="reverser">
-            <p>{{message}}</p>
-            <button v-on:click="reverseMessage">Reverse</button>
-        </div>
-
-        <div id="app-6">
-            <p>{{message}}</p>
-            <input v-model="message">
-        </div>
 
         <p><b>EOF</b></p>
 
