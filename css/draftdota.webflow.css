@@ -1,0 +1,750 @@
+body {
+  font-family: Raleway, sans-serif;
+  color: #fff;
+}
+
+h1 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 38px;
+  font-weight: 700;
+}
+
+h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: bold;
+}
+
+.heading {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: Geometos, sans-serif;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+.container {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  min-width: 80vw;
+}
+
+.nav-menu {
+  position: absolute;
+  left: auto;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
+}
+
+.nav-link {
+  margin-right: 20px;
+  margin-left: 20px;
+  font-family: Raleway, sans-serif;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0px;
+}
+
+.navbar {
+  background-color: #031727;
+  box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.68);
+}
+
+.settingsgear {
+  position: static;
+  left: auto;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  margin-right: 25px;
+  margin-left: 25px;
+}
+
+.section {
+  background-image: url('../images/dota-2-game-art-2020-ld-1536x864-BW.jpg');
+  background-position: 0px 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.dotabackgroundoverlay {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 100vh;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: rgba(11, 55, 88, 0.87);
+}
+
+.container-2 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.teamtime.dire {
+  left: auto;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 500px;
+  margin-left: 20px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  -webkit-box-ordinal-group: 2;
+  -webkit-order: 1;
+  -ms-flex-order: 1;
+  order: 1;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.teamtime.radiant {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 500px;
+  margin-right: 20px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  -webkit-box-ordinal-group: 0;
+  -webkit-order: -1;
+  -ms-flex-order: -1;
+  order: -1;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.drafttimer {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.timer-button {
+  filter: drop-shadow(0px 2px 6px rgba(0, 0, 0, 0.6));
+}
+
+.teamheader {
+  position: static;
+  margin-bottom: 30px;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  font-family: Geometos, sans-serif;
+  color: #fff;
+  text-align: left;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+.teamheader.dire {
+  text-align: right;
+}
+
+.timertext {
+  min-width: 250px;
+  padding-bottom: 10px;
+  text-align: center;
+  font-family: Geometos, sans-serif;
+  color: #fff;
+  font-size: 60px;
+  font-weight: 400;
+  letter-spacing: 8px;
+  text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.28);
+}
+
+.reservetimetext {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 500px;
+  margin-bottom: 10px;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.reservetimetext.dire {
+  width: auto;
+  min-width: 100%;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.paragraph {
+  margin-bottom: 0px;
+  font-family: Raleway, sans-serif;
+  color: #fff;
+  font-size: 20px;
+  letter-spacing: 0px;
+}
+
+.paragraph-2 {
+  position: absolute;
+  left: auto;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  margin-bottom: 0px;
+  font-family: Raleway, sans-serif;
+  color: #fff;
+  font-size: 20px;
+  letter-spacing: 0px;
+}
+
+.timebar-container {
+  filter: drop-shadow(0px 2px 6px rgba(0, 0, 0, 0.5));
+}
+
+.timebar {
+  position: static;
+  left: 0px;
+  height: 15px;
+  max-width: 500px;
+  -webkit-align-self: stretch;
+  -ms-flex-item-align: stretch;
+  -ms-grid-row-align: stretch;
+  align-self: stretch;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  background-image: -webkit-gradient(linear, left top, right top, from(#6039a6), to(#8865c9));
+  background-image: linear-gradient(90deg, #6039a6, #8865c9);
+  clip-path: polygon(0 0, 0% 100%, calc(100% - 12px) 100%, 100% 0%);
+  filter: drop-shadow(0px 10px 2px rgba(0,0,0,0.9))
+}
+
+.timebar.dire {
+  position: static;
+  left: auto;
+  right: 0px;
+  max-width: 500px;
+  background-image: -webkit-gradient(linear, left top, right top, from(#8865c9), to(#6039a6));
+  background-image: linear-gradient(90deg, #8865c9, #6039a6);
+  clip-path: polygon(0 0, 12px 100%, 100% 100%, 100% 0%);
+}
+
+.heading-4 {
+  margin-top: 0px;
+  margin-bottom: 0%;
+  font-family: Raleway, sans-serif;
+  color: #fff;
+  font-size: 20px;
+  line-height: 100%;
+  font-weight: 400;
+  letter-spacing: 0px;
+}
+
+.heading-5 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: Raleway, sans-serif;
+  color: #fff;
+  font-size: 20px;
+  line-height: 100%;
+  font-weight: 400;
+  letter-spacing: 0px;
+}
+
+.div-block {
+  position: absolute;
+  left: 0%;
+  top: 120px;
+  right: 0%;
+  bottom: 0%;
+  min-width: 250px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: -20px;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.container-3 {
+  display: -ms-grid;
+  display: grid;
+  margin-top: 40px;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  -ms-grid-columns: 3fr 1fr;
+  grid-template-columns: 3fr 1fr;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
+}
+
+.attributeheading {
+  margin-left: 10px;
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+  text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.4);
+}
+
+.heroattributetitle {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.attributeicon {
+  width: 22px;
+  height: 22px;
+  filter: drop-shadow(0px 3px 7px rgba(0,0,0,0.9))
+}
+
+.image-2 {
+  position: relative;
+  z-index: 0;
+  max-height: 85px;
+  border-radius: 3px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.heropickportrait {
+  position: relative;
+  overflow: hidden;
+  max-width: 55px;
+  margin-right: 6px;
+  margin-bottom: 6px;
+  margin-left: 0px;
+  border-radius: 3px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.3);
+  color: #fff;
+  text-decoration: none;
+}
+
+.heroattributeportraitlist {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-content: flex-start;
+  -ms-flex-line-pack: start;
+  align-content: flex-start;
+}
+
+.div-block-2 {
+  display: -ms-grid;
+  display: grid;
+  width: 100%;
+  max-width: 2000px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 5px;
+  grid-template-areas: ".";
+  -ms-grid-columns: 3fr 5px auto 5px 1fr;
+  grid-template-columns: 3fr auto 1fr;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
+}
+
+.herolistgrid {
+  max-width: 1350px;
+}
+
+.draftgrid {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 0px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.div-block-3 {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 20px;
+  width: 100%;
+  min-width: 300px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
+  border-radius: 4px;
+  background-color: rgba(3, 23, 39, 0.7);
+}
+
+.teamnames {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 0px;
+  padding-top: 10px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.draftteamheading {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: Geometos, sans-serif;
+  font-weight: 500;
+  text-align: right;
+  letter-spacing: 2px;
+  text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.68);
+}
+
+.draftteamheading.dire {
+  text-align: left;
+}
+
+.heading-7 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.div-block-4 {
+  display: -ms-grid;
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: minmax(-webkit-min-content, -webkit-max-content) auto;
+  -ms-grid-rows: minmax(min-content, max-content) auto;
+  grid-template-rows: minmax(-webkit-min-content, -webkit-max-content) auto;
+  grid-template-rows: minmax(min-content, max-content) auto;
+}
+
+.draftbanbox {
+  min-height: 30px;
+  min-width: 65px;
+  margin-bottom: 10px;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
+  border-radius: 4px;
+  background-color: #254155;
+  box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.21);
+}
+
+.div-block-6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+}
+
+.div-block-6.dire {
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.draftpickbox {
+  min-height: 60px;
+  min-width: 100px;
+  margin-bottom: 10px;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 0 50px;
+  -ms-flex: 1 0 50px;
+  flex: 1 0 50px;
+  border-radius: 4px;
+  background-color: #254155;
+  box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.2);
+}
+
+.heropickportraithover {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(hsla(0, 0%, 100%, 0)), to(#000));
+  background-image: linear-gradient(180deg, hsla(0, 0%, 100%, 0), #000);
+  opacity: 1;
+  -webkit-transition: opacity 200ms linear;
+  transition: opacity 200ms linear;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.heroportraitpickname {
+  position: absolute;
+  left: 2px;
+  top: auto;
+  right: auto;
+  bottom: 0px;
+  z-index: 2;
+  width: 100%;
+  margin-top: 0px;
+  margin-bottom: 2px;
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: none;
+  white-space: normal;
+}
+
+.div-block-7 {
+  position: absolute;
+  left: auto;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 8%;
+  margin-right: 60px;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
+}
+
+.div-block-8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  max-width: 2000px;
+  margin-bottom: 2%;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
+}
+
+.image-3 {
+  width: 25px;
+  height: 25px;
+  -webkit-filter: invert(100%);
+  filter: invert(100%) drop-shadow(0px 2px 6px rgba(0, 0, 0, 0.8));
+}
+
+.image-4 {
+  width: 30px;
+  height: 30px;
+  max-width: none;
+  min-height: 30px;
+  min-width: 30px;
+  filter: drop-shadow(0px 2px 6px rgba(0, 0, 0, 0.8));
+}
+
+#w-node-915b2c188ab7-4c9ffa0b {
+  -webkit-box-ordinal-group: -9998;
+  -webkit-order: -9999;
+  -ms-flex-order: -9999;
+  order: -9999;
+  -ms-grid-column-span: 1;
+  grid-column-end: 2;
+  -ms-grid-column: 1;
+  grid-column-start: 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: 2;
+  -ms-grid-row: 1;
+  grid-row-start: 1;
+}
+
+#w-node-d83efc0cd914-4c9ffa0b {
+  -ms-grid-column-align: stretch;
+  justify-self: stretch;
+  -ms-grid-row-align: stretch;
+  align-self: stretch;
+  -webkit-box-ordinal-group: 10000;
+  -webkit-order: 9999;
+  -ms-flex-order: 9999;
+  order: 9999;
+  -ms-grid-column-span: 1;
+  grid-column-end: 4;
+  -ms-grid-column: 3;
+  -ms-grid-row: 1;
+  grid-row-start: 1;
+}
+
+@font-face {
+  font-family: 'Geometos';
+  src: url('../fonts/Geometos.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
